@@ -1,0 +1,12 @@
+.header1{
+    font-size: 50pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 30%;
+    color:black;
+}
+.videos ul li{
+   margin-left: 40%;
+   display: inline;
+}
+
+

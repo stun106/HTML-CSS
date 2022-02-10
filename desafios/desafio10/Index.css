@@ -1,0 +1,234 @@
+@font-face {
+    font-family:'idroid.otf';
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #84e1ad;
+    font-family: monospace;
+    max-width: 100%;
+}
+
+header{
+    background-image:linear-gradient(to top, #1a5c38, #3bd27f);
+    margin: 0px;
+    box-shadow: 0px 2px 4px rgb(66, 66, 66);
+}
+
+.T1,h1{
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: monospace;
+}
+
+.P1{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-indent: 20px;
+    font-size: 15px;
+}
+
+nav{
+    margin: auto;
+}
+nav,a{
+    padding: 5px;
+    color: white;
+    font-family: monospace;
+    max-width: 100%;
+}
+nav>a{
+    text-decoration: none;
+}
+nav>a:hover{
+    background-color: #3bd27f56;
+    
+}
+
+main{
+    position: relative;
+    top: 3px;
+    margin: auto;
+    width: 80%;
+    box-shadow: 0px 6px 8px 1px rgb(70 70 70);
+    background-color: white;   
+}
+
+.titulo{
+    font-family:'idroid.otf';
+    font-size: 40px;
+    text-align: left;
+    margin: 0px 10px;
+    padding: 10px;
+    color: #1a5c38;
+}
+
+.P2{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 19px;
+    margin: 0px 10px;
+    width: 96%;
+    color: black;
+}
+.sub1{
+    font-family: 'idroid.otf';
+    background-image: linear-gradient(to left, white,#298f554b);
+    color: #227546;
+    margin: 8px 20px;
+}
+
+.P3{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 19px;
+    margin: 0px 10px;
+    width: 96%;
+    color: black;
+}
+.Inkscape{
+    color:#227546 ;
+    text-decoration: none;
+}
+.Dan{
+    color:#227546 ;
+    text-decoration: none;
+}
+.dandroids{
+    color:#227546 ;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+.img1{
+    width: 100%;
+    margin: 0px -5px;
+}
+}
+.img2{
+    width: 87%;
+}
+.img2{
+    margin: auto;
+    display: block;
+    width: 94%;
+    padding: 20px;
+}
+.img25{
+    margin: auto;
+    display: block;
+}
+.img3{
+    margin: auto;
+    display: block;
+    width: 30%;
+    padding: 10px;
+}
+
+.P4{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 19px;
+    margin: 0px 10px;
+    width: 96%;
+    color: black;
+}
+
+.sub2{
+    font-family: 'idroid.otf';
+    background-image: linear-gradient(to left, white,#298f554b);
+    color: #227546;
+    margin: 8px 20px;  
+}
+
+.P5{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 19px;
+    margin: 0px 10px;
+    width: 96%;
+    color: black;
+}
+
+.video{
+    background-color: #1a5c38;
+    width: 80%;
+   display: flex;
+    margin: auto;
+    
+}
+.vd{
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+section{
+    background-color: white;
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bg1{
+    background-color: #39d17b63;
+    width: 98%;
+    height: 414px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.bg2{
+    background-color: #32b86c;
+    border-radius: 10px 10px 0px 0px;
+    height: 40px;
+    display: flex;
+}
+h3{
+    color: #ffff;
+    margin: 10px 15px;
+}
+
+.P6{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 19px;
+    margin: 0px 10px;
+    width: 96%;
+    color: black;
+}
+
+.clink1,.clink2{
+    color: black;
+}
+.box{
+      width: 220px;
+      height: 250px;
+      background-color: rgba(165, 42, 42, 0.199);
+      text-align: center;
+}
+.box2{
+background-color: rgba(95, 158, 160, 0.308);
+width: 220px;
+height: 250px;
+
+}
+.box,.box2{
+    display:inline-block
+}
+ul{
+    width: 500px;
+    margin-left: 200px;
+    
+}

@@ -1,0 +1,13 @@
+h1 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:cadetblue
+}
+p {
+    font-family: sans-serif;
+}
+sub {
+    padding: 20%
+}
+div{
+    vertical-align: 10px;
+}
