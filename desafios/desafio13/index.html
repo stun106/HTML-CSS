@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 13</title>
+    <style>
+       table{
+           width: 400px;
+           border-collapse: collapse;
+       }
+       tr, th, td{
+           border: 1px solid black;
+           text-align: center;
+           padding: 5px;
+       }
+       th{
+           background-color: gray;
+       }
+       .wht{
+           background-color: white;
+       }
+    </style>
+</head>
+<body>
+    <table>
+    <thead> 
+    <tr>
+        <th rowspan="2">Area</th>
+        <th rowspan="2">Disciplinas</th>
+        <th colspan="2">Notas</th>
+        <th rowspan="2">Médias</th>
+    </tr>
+    <tr>
+        <th>Notas 1</th>
+        <th>Notas 2</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+        <tr>
+            <th class="wht" rowspan="4">Exatas</th>
+            <td>Matemática</td>
+            <td id="n1">5.1</td>
+            <td id="n2">7.5</td>
+            <td id="m1">0.0</td>
+       </tr>
+       <tr>
+            <td>Física</td>
+            <td id="n3">7.1</td>
+            <td id="n4">6.0</td>
+            <td id="m2">0.0</td>
+        </tr>
+        <tr>
+            <td>Quimica</td>
+            <td>8.5</td>
+            <td>6.5</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>Bioligia</td>
+            <td>5.5</td>
+            <td>5.8</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <th colspan="4">Média de Exatas</th>
+            <th>0.0</th>
+        </tr>
+        <tr>
+            <th class="wht" rowspan="2">Humanas</th>
+            <td>Historia</td>
+            <td>6.0</td>
+            <td>8.5</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td>5.9</td>
+            <td>7.1</td>
+            <td>0.0</td>
+        </tr>
+    </tbody>
+    
+    <tfoot>
+        <tr>
+            <th colspan="4">Média de Humanas</th>
+            <th>0.0</th>
+        </tr>
+
+    </tfoot>
+</table>
+    
+</body>
+</html>
