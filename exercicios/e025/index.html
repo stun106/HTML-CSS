@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        tr, th, td{
+            border: 1px solid black;
+            text-align: center;
+        }
+        tr.destaque{
+            background-color: greenyellow;
+        }
+        col.cnome, .cprof{
+            background-color: aquamarine;
+        }
+        col.csexo, .cidade{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+             <col class="cnome">
+             <col class="csexo">
+             <col class="cidade">
+             <col class="cprof">
+
+        </colgroup>
+        <caption> Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td scope="row">Ana Maria</td>
+            <td scope="row">F</td>
+            <td scope="row">25</td>
+            <td scope="row">Jornalista</td>
+        </tr>
+        <tr>
+            <td>Naiara</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Faxineira</td>
+        </tr>
+        <tr>
+            <td>Furuncio</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Mecanico</td>
+        </tr>
+        <tr>
+            <td >Gerisvelton</td>
+            <td>Sem Genero</td>
+            <td>25</td>
+            <td>Drag Queen</td>
+        </tr>
+    </table>
+</body>
+</html>
